@@ -1,13 +1,15 @@
-# Theme Switcher
+# Todo App
 
-A simple and elegant theme switcher built with ReactJS, Tailwind CSS, and Context API. This project allows users to toggle between light and dark themes seamlessly.
+A simple and elegant Todo application built with ReactJS, Tailwind CSS, Context API, and Local Storage. This project allows users to add, remove, and manage their tasks, with the state being persisted in local storage.
 
 
 ## Features
 ```
-Toggle between light and dark themes
+Add new tasks
+Delete tasks
+Mark tasks as completed
+Persist tasks in local storage
 Responsive design
-Easy to integrate into any React project
 ```
 
 
@@ -18,23 +20,29 @@ Easy to integrate into any React project
 ReactJS
 Tailwind CSS
 Context API
+Local Storage
 ```
 
 
 ## Installation
 `Clone the repository:`
-[(git clone https://github.com/your-username/theme-switcher.git
+[(git clone https://github.com/your-username/todo-app.git
 )]
 ```
 Change the repository
-cd theme-switcher
+cd todo-app
 
 Install dependencies:
 npm install
 
 Start the development server:
-npm start
+npm run dev
 ```
+
+## Tailwind CSS Setup
+Install Tailwind CSS:[npm install -D tailwindcss
+npx tailwindcss init
+]
 
 License
 This project is licensed under the MIT License.
