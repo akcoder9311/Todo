@@ -40,9 +40,10 @@ npm run dev
 ```
 
 ## Tailwind CSS Setup
-Install Tailwind CSS:[npm install -D tailwindcss
+``` Install Tailwind CSS:
+npm install -D tailwindcss
 npx tailwindcss init
-]
+```
 
 License
 This project is licensed under the MIT License.
